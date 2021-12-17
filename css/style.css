@@ -5,7 +5,7 @@
   }
   body {
     background-color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+    
     
   }
   .barra {
@@ -29,7 +29,7 @@
   .logo {
     display: flex;
     font-size: 1vw;
-    margin-left: 12vw;
+    margin-left: 14vw;
     align-items: center;
     cursor: pointer;
     
@@ -72,10 +72,11 @@
     margin-top:3vw;
     opacity : 0.4
     
+    
   }
   .texto h2 {
     font-size: 3.3vw;
-    
+    font-family: 'Montserrat', sans-serif;
   }
   .galeria{
     display: flex;
@@ -130,110 +131,6 @@
   }
 @media (max-width:320px){
 
-  .barra{
-    width: 100%;
-    height: 100%;
-  }
-  main {
-    
-    margin-top: 100%;
-  }
-  .logo {
-    display: flex;
-    font-size: 100%;
-    margin-left: 100%100%;
-    align-items: center;
-    cursor: pointer;
-  }
-  ul {
-    display: flex;
-    margin-right: 100%;
-    list-style-type: none;
-  }
-  li a {
-    display: flex;
-    padding: 100%;
-    font-size: 100%;
-  }
-  li a:hover {
-    font-weight: bold;
-    color: black;
-    font-size: 100%;
-  }
-  .imagen-total{
-    width: 100%;
-    height: 100%;
-  }
-  .texto {
-    display: flex;
-    font-weight: bold;
-    position: absolute;
-    color: #ffffff;
-    left: 100%;
-    top: 100%;
-    flex-direction: column;
-    
-  }
-  .texto p {
-    font-size: 100%;
-    left:100% ;
-    margin-top:100%;
-    opacity : 0.4
-    
-  }
-  .texto h2 {
-    font-size:100% ;
-    
-  }
-  .galeria{
-    display: flex;
-   flex-direction:center;
-   align-items:center;
-   margin:100% 100%;
-      
-  }
-  .fotos-galeria img{
-    margin:100%;
-    width:100% ;
-    height:100%;
-    cursor: pointer;
-  }
-  .conjunto{
-     display: flex;
-     flex-direction:center;
-     align-items:center;
-     margin:100% 100%; 
-    
-  }
-  .redes img{
-    margin:100%;
-    width:100%;
-    height:100%;
-    cursor: pointer;
-  }
-
-  .redes{
-    margin-left: 100%;
-  }
-  .direitos {
-    display: flex;
-    margin-left: 100%;
-    
-
-  }
-  .direitos p {
-    display: flex;
-    margin-left:100% ;
-    flex-direction: column ;
-   
-  }
-  .direitos h2{
-    font-size:100% ;
-  }
-  .texto-do-p{
-    display: flex;
-    flex-direction: column ;
-    color:#B5B5B5;
-    font-size:100% ;
+  
 }
   
