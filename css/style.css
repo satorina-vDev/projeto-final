@@ -5,10 +5,12 @@
   }
   body {
     background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    
   }
   .barra {
     /*background-color:#2F4F4F;*/
-     background-color: #ffffff;
+    background-color: #ffffff;
     width: 100%;
     height: 5vw;
     display: flex;
@@ -26,8 +28,8 @@
   }
   .logo {
     display: flex;
-    font-size: 1.8vw;
-    margin-left: 5vw;
+    font-size: 1vw;
+    margin-left: 12vw;
     align-items: center;
     cursor: pointer;
     
@@ -40,50 +42,50 @@
   li a {
     display: flex;
     padding: 1.5vw;
-    font-size: 1.3vw;
+    font-size: 1vw;
     text-decoration: none;
     color:#B5B5B5;
+    
   }
   li a:hover {
     font-weight: bold;
     color: black;
+    font-size: 1.1vw;
   }
-  .logo h1:hover {
-    font-weight: bold;
-    color: black;
-    
-  }
-  .principal {
-    display: flex;
-    width: 100px;
-    height:41vw;
+  .imagen-total{
+    width: 100%;
+    height: 100%;
   }
   .texto {
     display: flex;
     font-weight: bold;
     position: absolute;
     color: #ffffff;
-    left: 11vw;
+    left: 14vw;
     top: 20vw;
     flex-direction: column;
     
   }
   .texto p {
-    font-size: 2.6vw;
+    font-size: 1.5vw;
     left: 11vw;
+    margin-top:3vw;
+    opacity : 0.4
+    
   }
   .texto h2 {
-    font-size: 4.6vw;
+    font-size: 3.3vw;
+    
   }
-    .galeria{
-      display: flex;
-      flex-direction:center;
-      align-items:center;
-      margin:4vw 8vw;
+  .galeria{
+    display: flex;
+   flex-direction:center;
+   align-items:center;
+   margin:3vw 11vw;
       
   }
   .fotos-galeria img{
-    margin:1vw;
+    margin:0.3vw;
     width: 18vw;
     height:18vw;
     cursor: pointer;
@@ -92,22 +94,22 @@
      display: flex;
      flex-direction:center;
      align-items:center;
-     margin:4vw 9vw; 
+     margin:4vw 7.5vw; 
     
   }
   .redes img{
     margin:9px;
-    width:2vw;
-    height:2vw;
+    width:2.1vw;
+    height:1.7vw;
     cursor: pointer;
   }
 
   .redes{
-    margin: 3vw;
+    margin-left: 3.5vw;
   }
   .direitos {
     display: flex;
-    
+    margin-left: 6.5vw;
     
 
   }
@@ -115,15 +117,123 @@
     display: flex;
     margin-left: 2vw;
     flex-direction: column ;
+   
+  }
+  .direitos h2{
+    font-size: 1.5vw;
   }
   .texto-do-p{
     display: flex;
     flex-direction: column ;
+    color:#B5B5B5;
+    font-size: 0.7vw;
   }
 @media (max-width:320px){
 
-  h1 {
-    display: none;
+  .barra{
+    width: 100%;
+    height: 100%;
   }
+  main {
+    
+    margin-top: 100%;
+  }
+  .logo {
+    display: flex;
+    font-size: 100%;
+    margin-left: 100%100%;
+    align-items: center;
+    cursor: pointer;
+  }
+  ul {
+    display: flex;
+    margin-right: 100%;
+    list-style-type: none;
+  }
+  li a {
+    display: flex;
+    padding: 100%;
+    font-size: 100%;
+  }
+  li a:hover {
+    font-weight: bold;
+    color: black;
+    font-size: 100%;
+  }
+  .imagen-total{
+    width: 100%;
+    height: 100%;
+  }
+  .texto {
+    display: flex;
+    font-weight: bold;
+    position: absolute;
+    color: #ffffff;
+    left: 100%;
+    top: 100%;
+    flex-direction: column;
+    
+  }
+  .texto p {
+    font-size: 100%;
+    left:100% ;
+    margin-top:100%;
+    opacity : 0.4
+    
+  }
+  .texto h2 {
+    font-size:100% ;
+    
+  }
+  .galeria{
+    display: flex;
+   flex-direction:center;
+   align-items:center;
+   margin:100% 100%;
+      
+  }
+  .fotos-galeria img{
+    margin:100%;
+    width:100% ;
+    height:100%;
+    cursor: pointer;
+  }
+  .conjunto{
+     display: flex;
+     flex-direction:center;
+     align-items:center;
+     margin:100% 100%; 
+    
+  }
+  .redes img{
+    margin:100%;
+    width:100%;
+    height:100%;
+    cursor: pointer;
+  }
+
+  .redes{
+    margin-left: 100%;
+  }
+  .direitos {
+    display: flex;
+    margin-left: 100%;
+    
+
+  }
+  .direitos p {
+    display: flex;
+    margin-left:100% ;
+    flex-direction: column ;
+   
+  }
+  .direitos h2{
+    font-size:100% ;
+  }
+  .texto-do-p{
+    display: flex;
+    flex-direction: column ;
+    color:#B5B5B5;
+    font-size:100% ;
 }
   
